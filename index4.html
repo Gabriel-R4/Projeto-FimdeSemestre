@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio SENAI </title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Estudos</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá,sou</h3>
+            <h1>Gabriel Ramos</h1>
+            <p>Neste Projeto, estou animado em apresentar o trabalho de fim de semestre da faculdade. Durante esse
+                período, estudamos várias disciplinas e exploramos conceitos e teorias importantes para nossa formação
+                acadêmica.</p>
+
+            <div class="social-media">
+                <a href="https://api.whatsapp.com/send?phone=5515988377218" target="_blank"><i
+                        class='bx bxl-whatsapp'></i></a>
+                <a href="https://github.com/Gabriel-R4" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxs-wrench'></i>
+                    <h3>Mecatrônico</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-pencil'></i>
+                    <h3>Desenhista</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <!-- <img src="images/home.png" alt=""> -->
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile-pic (1).png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <p>Gabriel Ramos, 22 anos,  um estudante de análise e desenvolvimento de sistemas no SENAI. Estou
+                entusiasmado em expandir meus conhecimentos na área de tecnologia e tem uma paixão pela programação
+                e resolução de problemas.</p>
+        </div>
+    </section>
+    <!-- Linguaem de programação -->
+    <section class="services" id="services">
+        <h2 class="heading">Linguagem de <span>Programação</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Linguaem de programação:</h3>
+                <p>Linguagem de programação é um conjunto de regras e instruções utilizadas para escrever programas de
+                    computador.<br>
+                    Elas permitem que os desenvolvedores criem algoritmos e instruções que podem ser interpretadas e
+                    executadas pelo computador</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>>
+                <h3>Html:</h3>
+                <p>HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para estruturar e apresentar
+                    conteúdo na web.<br>
+                    Ela define a estrutura básica de uma página web, utilizando tags para marcar elementos como
+                    cabeçalhos, parágrafos, imagens, links e outros.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>CSS:</h3>
+                <p>CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para controlar a aparência e o
+                    layout de elementos em uma página web.<br>
+                    Com o CSS, é possível definir cores, fontes, tamanhos, posicionamentos e outros estilos visuais para
+                    elementos HTML
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>JavaScript:</h3>
+                <p>JavaScript é uma linguagem de programação de alto nível que permite adicionar interatividade e
+                    dinamismo às páginas web.<br>
+                    Com o JavaScript, é possível criar funcionalidades como validação de formulários, manipulação de
+                    elementos HTML, criação de animações, requisições assíncronas (AJAX) e muito mais.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Java:</h3>
+                <p>Java é uma linguagem de programação de propósito geral, orientada a objetos e amplamente utilizada no
+                    desenvolvimento de aplicações em diversos domínios, como desktop, web e mobile.<br>
+                    Com Java, é possível criar programas robustos e escaláveis, aproveitando recursos como gerenciamento
+                    automático de memória, tratamento de exceções e suporte a multithreading.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Meus Projetos <span>Linguagem de Programação</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="culinaria.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Culinaria Pratica</h4>
+                    <p>Html+Css</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="html+css+java.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Curriculo</h4>
+                    <p>Html+CSS+JavaScript</p>
+                    <a href="https://github.com/Gabriel-R4/curicullo"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="calculadora-js.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Calculadora INSS</h4>
+                    <p>Html+CSS+JavaScript</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="calculadora-padrao.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Calculadora</h4>
+                    <p>Html+Css+JavaScript</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ceronometro.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Cronometro</h4>
+                    <p>Html+Css+JavaScript</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Versão wikipedia.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Wikipedia LOL</h4>
+                    <p>Html+Css+JavaScript</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Automação <span>Industrial</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-bug'></i>
+                <h3>Portas logicas
+                </h3>
+                <p>Porta lógica AND:</p>
+                <p> A porta lógica AND, também conhecida como operação de "e", é utilizada para combinar sinais lógicos.
+                    Essa porta
+                    requer duas ou mais entradas e produz uma única saída. A saída da porta AND é igual a 1 apenas
+                    quando todas as suas
+                    entradas forem iguais a 1. Se pelo menos uma das entradas for 0, a saída será 0.</p>
+                <p>Por exemplo:</p>
+                <p>Se todas as entradas forem 1 (1 AND 1), a saída será 1.
+                    Se pelo menos uma das entradas for 0 (1 AND 0 ou 0 AND 1), a saída será 0.</p>
+                <p>Em resumo, a porta lógica AND realiza uma multiplicação lógica entre as entradas, produzindo 1 apenas
+                    quando todas as
+                    entradas são 1, e 0 quando pelo menos uma entrada é 0.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bug'></i>
+                <h3>Portas logicas
+                </h3>
+                <p>Porta lógica NOT:</p>
+                <p>A porta lógica NOT, também conhecida como operação de "não", é utilizada para inverter o valor de
+                    um sinal lógico. Essa porta possui apenas uma entrada e produz uma única saída. A saída da porta
+                    NOT é o valor oposto ao da entrada.</p>
+                <p>Por exemplo:</p>
+                <p>Se a entrada for 1, a saída será 0. Se a entrada for 0, a saída será 1.</p>
+                <p>Em resumo, a porta lógica NOT inverte o valor da entrada, produzindo 0 quando a entrada é 1 e 1
+                    quando a entrada é 0.</p>
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bug'></i>
+                <h3>Portas logicas
+                </h3>
+                <p>Porta lógica OR :</p>
+                <p>A porta lógica OR, também conhecida como operação de "ou", é utilizada para combinar sinais
+                    lógicos. Essa porta requer duas ou mais entradas e produz uma única saída. A saída da porta OR é
+                    igual a 1 se pelo menos uma das suas entradas for igual a 1. Se todas as entradas forem 0, a
+                    saída será 0.</p>
+                <p>Por exemplo:
+                    1 + 0 = 1,<br>
+                    1 + 1 = 1<br>
+                    0 + 0 = 0</p>
+                <p>Em resumo, a porta lógica OR realiza uma soma lógica entre as entradas, produzindo 1 se pelo
+                    menos uma das entradas for 1, e 0 apenas quando todas as entradas forem 0.</p>.</p>
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bug'></i>
+                <h3>Sensores Ultrassônicos
+                </h3>
+                <p>Os sensores ultrassônicos utilizam um princípio de emissão e recepção de ondas sonoras de alta
+                    frequência. Eles
+                    emitem pulsos de ondas sonoras que são direcionados em direção a um objeto alvo. Ao encontrar o
+                    objeto, uma parte
+                    dessas ondas sonoras é refletida de volta para o sensor.</p>
+                <p>O sensor ultrassônico mede o tempo que leva para o pulso ultrassônico percorrer a distância do sensor
+                    até o objeto e
+                    retornar como um eco. Com base nesse tempo de ida e volta, o sensor é capaz de calcular a distância
+                    até o objeto.
+                    Isso é possível porque a velocidade do som no meio em que as ondas estão se propagando é conhecida.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bug'></i>
+                <h3>Robotica
+                </h3>
+                <p>Na disciplina de robótica, exploramos conceitos como movimentação robótica, linguagens de programação
+                    específicas para
+                    robôs, tipos de robôs e suas aplicações, incluindo o controle e funcionamento de braços robóticos.
+                    Foi uma experiência
+                    enriquecedora para compreender os princípios da robótica e suas diversas aplicações..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos automaçao -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Projetos <span>Automação</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="arduino.png" alt="">
+
+                <div class="portfolio-layer">
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="codigotk.png" alt="">
+
+                <div class="portfolio-layer">
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="tk.png" alt="">
+
+                <div class="portfolio-layer">
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portas.png">
+
+                <div class="portfolio-layer">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- redes -->
+
+    <section class="services" id="services">
+        <h2 class="heading">Redes de <span>Computadores</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>LAN</h3>
+                <p>As LANs também oferecem vantagens como alta velocidade de transmissão de dados dentro da área de
+                    cobertura e facilidade
+                    de configuração e gerenciamento. Além disso, elas promovem a colaboração e o compartilhamento de
+                    informações entre os
+                    dispositivos conectados, aumentando a produtividade e eficiência no ambiente de trabalho. Com a
+                    expansão da tecnologia,
+                    as LANs têm se tornado cada vez mais essenciais para o funcionamento de empresas, instituições
+                    educacionais e
+                    residências, permitindo uma conectividade eficiente e facilitando a realização de tarefas
+                    cotidianas.
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>MAN</h3>
+                <p> A Rede Metropolitana (MAN) abrange uma área geográfica maior que uma LAN, como uma cidade ou região
+                    metropolitana.
+                    Operada por provedores de serviços de telecomunicações, interconecta várias LANs e dispositivos
+                    nessa área. A MAN
+                    oferece velocidades de transmissão mais altas que a LAN, facilitando a comunicação e o
+                    compartilhamento de recursos. No
+                    entanto, seu alcance geográfico é mais limitado em comparação com as WANs.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>WAN</h3>
+                <p>A Wide Area Network (WAN) conecta redes menores em grandes áreas, permitindo comunicação eficiente em
+                    longas distâncias.
+                    Exemplo notável é a Internet, possibilitando o compartilhamento global de informações. Por meio de
+                    tecnologias de
+                    telecomunicação, como linhas telefônicas e cabos de fibra óptica, as WANs garantem conectividade
+                    confiável e alta
+                    capacidade de transmissão de dados, impulsionando a interconexão global de empresas e instituições.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>PAN</h3>
+                <p>Personal Area Network é uma rede pessoal que conecta dispositivos eletrônicos próximos em curta
+                    distância.
+                    Exemplos de tecnologias PAN incluem Bluetooth e infravermelho, permitindo a comunicação entre
+                    smartphones, tablets,
+                    fones de ouvido sem fio e teclados. Essa interconexão facilita o compartilhamento de dados e o
+                    controle dos dispositivos
+                    de forma conveniente.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>CAN</h3>
+                <p>Controller Area Network é uma rede de controle amplamente empregada na indústria automotiva. Sua
+                    função é
+                    possibilitar a comunicação entre os diversos dispositivos eletrônicos presentes em um veículo, como
+                    sensores, atuadores,
+                    unidades de controle do motor e painéis de instrumentos. Essa rede assegura uma troca eficiente e
+                    confiável de dados,
+                    contribuindo para o funcionamento adequado e seguro do veículo.
+                </p>
+            </div>
+        </div>
+        <!-- prjetos redes -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Projetos <span>Redes</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="redes.png" alt="">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="rede2.png" alt="">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="Capturar.PNG" alt="">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="Capturar1.PNG">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="redes3.png" alt="">
+
+                    <div class="portfolio-layer">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banco de dados -->
+        <section class="services" id="services">
+            <h2 class="heading">Banco de <span>Dados</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>SQL:</h3>
+                    <p>O SQL (Structured Query Language) é uma linguagem de pesquisa declarativa utilizada para
+                        interagir com bancos de dados
+                        relacionais.
+                        É uma linguagem padronizada e amplamente utilizada em sistemas de gerenciamento de banco de
+                        dados.
+                        Ele fornece um conjunto de comandos para definir a estrutura dos dados (DDL), manipular os dados
+                        (DML), controlar o
+                        acesso aos dados (DCL), gerenciar transações (TCL) e realizar consultas (DQL).
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>DCL:</h3>
+                    <p>A linguagem de controle de dados (DCL) é responsável por controlar as permissões e acessos aos
+                        dados em um banco de
+                        dados.
+                        Ela permite conceder ou revogar privilégios de acesso, definir papéis e gerenciar a segurança
+                        dos dados.
+                        Comandos comuns de DCL incluem GRANT, REVOKE e ALTER USER.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>TCL:</h3>
+                    <p>A linguagem de controle de transação (TCL) é usada para gerenciar transações em um banco de
+                        dados.
+                        Ela permite controlar o início, término e confirmação de transações, garantindo a consistência e
+                        integridade dos dados.
+                        Comandos comuns de TCL incluem COMMIT, ROLLBACK e SAVEPOINT.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>DQL:</h3>
+                    <p>A linguagem de consulta de dados (DQL) é utilizada para realizar consultas e obter informações
+                        específicas de um banco
+                        de dados.
+                        Ela permite recuperar dados baseados em condições e critérios definidos.
+                        O comando mais comum de DQL é o SELECT, que é usado para recuperar registros de uma ou mais
+                        tabelas.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>DML:</h3>
+                    <p>A linguagem de manipulação de dados (DML) é usada para manipular os dados em um banco de dados
+                        relacional.
+                        Ela permite realizar operações como inserção, atualização, exclusão e recuperação de dados.
+                        Comandos comuns de DML incluem INSERT, UPDATE, DELETE e SELECT.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>Funçoes DDL</h3>
+                    <p><b>Create Table:</b> é usado para criar tabelas no banco de dados. Esse comando permite definir a
+                        estrutura da tabela,
+                        especificando os nomes das colunas e os tipos de dados que cada coluna pode armazenar.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxl-postgresql'></i>
+                    <h3>Funçoes DDL</h3>
+                    <p>
+                        <b>Drop Table:</b> é usado para excluir tabelas do banco de dados. Ao executar o comando <b>Drop
+                            Table</b>, você pode
+                        especificar o nome da tabela que deseja excluir. Essa ação resultará na remoção completa da
+                        tabela e de todos os dados
+                        contidos nela, além de quaisquer objetos associados, como índices, visões e procedimentos
+                        armazenados relacionados à
+                        tabela.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- projetos banco de dados -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Projetos <span>Banco de Dados</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="sql.png" alt="">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="bd  renomeando.png" alt="">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="bd.png" alt="">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="bd2.png">
+
+                    <div class="portfolio-layer">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ciencia  de dados -->
+        <section class="services" id="services">
+            <h2 class="heading">Ciencia de <span>Dados</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Oque é</h3>
+                    <p>A disciplina da Ciência de Dados tem como propósito a extração de conhecimento e insights de
+                        conjuntos de dados
+                        complexos. Seu papel principal é oferecer uma abordagem sistemática e orientada por dados para
+                        solucionar problemas e
+                        tomar decisões embasadas.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Amostragem</h3>
+                    <p>A amostragem é o processo de selecionar uma parte representativa de uma população maior para
+                        realizar análises e
+                        inferências sobre a população como um todo. Em vez de coletar informações de todos os
+                        indivíduos, são coletados dados de
+                        uma amostra, economizando tempo e recursos.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Amostragem aleatoria</h3>
+                    <p>Cada elemento da população tem igual chance de ser selecionado.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Amostra sistemática</h3>
+                    <p>O primeiro elemento da amostra é selecionado aleatoriamente e os demais são escolhidos de forma
+                        sistemática, seguindo
+                        intervalos fixos.</p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Amostra estratificada</h3>
+                    <p>A amostragem estratificada é um método em que a população de interesse é dividida em subgrupos
+                        distintos e homogêneos,
+                        chamados de estratos. A seleção da amostra é feita de modo a garantir que cada estrato esteja
+                        representado na amostra
+                        final, proporcionalmente à sua presença na população.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Amostra cluster</h3>
+                    <p>A amostragem por conglomerado é um método utilizado para selecionar uma amostra representativa de
+                        uma população. Nesse
+                        método, a população é dividida em grupos chamados de conglomerados. Em vez de selecionar
+                        indivíduos individualmente,
+                        alguns conglomerados são escolhidos aleatoriamente. Todos os elementos dentro desses
+                        conglomerados selecionados são
+                        incluídos na amostra.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Derivada</h3>
+                    <p>A derivada de uma função é um conceito que descreve a taxa de variação instantânea da função em
+                        relação à sua variável
+                        independente. Essa medida nos fornece informações sobre a inclinação da curva da função em cada
+                        ponto.
+                        O cálculo da derivada é uma ferramenta fundamental que nos permite determinar a direção e a taxa
+                        na qual a função está
+                        mudando. Isso tem diversas aplicações, como otimização de processos, ajuste de parâmetros em
+                        modelos matemáticos e
+                        análise de dados.<br>
+                        Ao utilizar a derivada, podemos compreender melhor o comportamento de uma função em relação às
+                        mudanças em sua variável
+                        independente, possibilitando tomar decisões mais informadas e realizar análises mais precisas em
+                        diversos campos, desde
+                        a física e a engenharia até a economia e a ciência dos dados.
+                    </p>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-invader'></i>
+                    <h3>Integral</h3>
+                    <p>A integral é um conceito fundamental do cálculo integral que nos permite calcular a área sob uma
+                        curva. Na ciência de
+                        dados, esse conceito é especialmente relevante em áreas como análise estatística. Através da
+                        integração, podemos obter
+                        valores importantes para a interpretação e análise dos dados.<br>
+                        A técnica de integração permite não apenas calcular a área sob uma curva, mas também realizar
+                        operações como o cálculo
+                        de médias, a determinação de probabilidades e a estimativa de quantidades importantes nos dados.
+                        Essas informações são
+                        essenciais para compreender padrões, tendências e relações presentes nos conjuntos de dados.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- projetos de ciencia de dados -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Projetos <span>Ciencia de Dados</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="aleatoria.png" alt="">
+
+                    <div class="portfolio-layer">
+                        <h4>Amostragem aleatoria</h4>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="sistematica.png" alt="">
+
+                    <div class="portfolio-layer">
+                        <h4>sistematica</h4>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="estratificada.png" alt="">
+
+                    <div class="portfolio-layer">
+                        <h4>Estratificada</h4>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="cluster.png" alt="">
+
+                    <div class="portfolio-layer">
+                        <h4>Cluster</h4>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio5.jpg" alt="">
+
+                    <div class="portfolio-layer">
+                        <h4>Derivada</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio6.jpg" alt="">
+
+                    
+                </div>
+            </div>
+        </section>
+        <!-- footer design -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Ramos</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- swiper js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- custom js -->
+        <script src="script.js"></script>
+</body>
+
+</html>
